@@ -1,0 +1,27 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="card mt-4">
+        <h5 class="card-header">{{ get_article.create_date }}</h5>
+        <div class="card-body">
+            <h5 class="card-title">{{ get_article.name }}</h5>
+            <p class="card-text">{{ get_article.text }}</p>
+
+        </div>
+    </div>
+    <p><a href="/">Вернуться назад</a></p>
+
+</div>
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
